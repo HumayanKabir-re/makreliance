@@ -101,7 +101,7 @@ body::before {
 #nav {
   position: fixed;
   top: 0; left: 0; right: 0;
-  height: 7.5%;
+  /* height: 7.5%; */
   z-index: 100;
   padding: 1.4rem 0;
   transition: background var(--transition), box-shadow var(--transition), padding var(--transition);
@@ -153,8 +153,9 @@ body::before {
   padding: 0.6rem 1.4rem;
   border-radius: var(--radius);
   transition: background 0.25s !important;
-  justify-content: center !important;
-  align-items: center !important;
+  /* justify-content: center !important; */
+  /* align-items: center !important; */
+  text-align: center !important;
 }
 .nav-cta:hover { background: var(--gold-lt) !important; color: var(--ink) !important; }
 
