@@ -36,6 +36,9 @@ reliance-legal/
 | **About** | Firm history and core values grid |
 | **Practice Areas** | Six practice area cards with hover effects |
 | **Our Team** | Featured owner/partner card + associate grid |
+| **File List** | List of available files to download |
+| **Buy Documents** | Full Stack Bkash Supported Buying Functionality |
+| **Download File** | After Purchase is confirmed, Downlaod the file |
 | **Testimonials** | Auto-scrolling infinite marquee (pauses on hover) |
 | **CTA Banner** | Gold accent call-to-action strip |
 | **Contact** | Contact details + enquiry form |
@@ -43,47 +46,6 @@ reliance-legal/
 
 ---
 
-## Deploying to GitHub Pages
-
-1. Create a new GitHub repository (e.g. `reliance-legal`).
-2. Push all files, keeping the folder structure exactly as shown above.
-3. Go to **Settings → Pages**.
-4. Under **Source**, select `Deploy from a branch` → `main` → `/ (root)`.
-5. Save. Your site will be live at `https://<your-username>.github.io/reliance-legal/`.
-
----
-
-## Adding the Owner's Photo
-
-In `index.html`, find the comment inside the owner card:
-
-```html
-<!--
-  Replace the SVG below with an <img> tag pointing to the actual photo:
-  <img src="assets/images/MA_Khalque_Profile.jpeg" alt="M. A. Khaleque"
-       style="width:100%;height:100%;object-fit:cover;" />
--->
-```
-
-1. Copy `MA_Khalque_Profile.jpeg` (or any photo) into `assets/images/`.
-2. Remove the SVG placeholder and uncomment the `<img>` tag.
-3. Also remove the `avatar-circle lg` wrapper `<div>` — it constrains the image to a circle. Replace the whole `.owner-photo-placeholder` block with just the `<img>` tag for a full-bleed photo.
-
----
-
-## Customisation Checklist
-
-- [ ] Replace firm name, tagline, and established year in `index.html`
-- [ ] Update phone numbers and email address
-- [ ] Update office address in Contact section and Footer
-- [ ] Add owner photo to `assets/images/` and update the HTML (see above)
-- [ ] Update owner bio, credentials, and role
-- [ ] Add associate photos and update employee cards
-- [ ] Replace placeholder statistics in Trust Bar with real figures
-- [ ] Replace placeholder testimonials with real client quotes
-- [ ] Update `<meta>` description and OG tags at the top of `index.html`
-
----
 
 ## Technology
 
